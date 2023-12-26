@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 
 def home(request):
     # Your view logic goes here
-    return render(request, 'home.html')  # Adjust the template name as needed
+    return render(request, 'index.html')  # Adjust the template name as needed
 
 def predict(request):
     # Your view logic goes here
